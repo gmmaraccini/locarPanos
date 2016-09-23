@@ -1,0 +1,216 @@
+body
+{
+	margin:0;	
+}
+
+.geral
+{
+	background-color:#e5e4e2;
+	height:691px;
+	width:1120px;	
+	
+}
+
+.menuinicial
+{
+	width:622px;
+	height:615px;
+	
+}
+
+.esquerda
+{
+	
+	width:213px;
+	height:680px;
+	float:left;
+	margin-top:5px;
+	margin-left:5px;
+	background-color:#B5DDDD;
+	
+	margin-bottom:10px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.form
+{
+	width:155px;
+	margin-top:40px;
+	padding:30px;
+}
+
+form input
+{
+	width:300px;
+	size:100px;
+}
+
+
+.titulocadastro
+{
+	font-size: 30px;
+	width:300px;
+	margin:0;
+	padding:0;
+}
+
+form p
+{
+	padding:0;
+	margin:0;
+	float:left;
+}
+
+
+
+ button
+{
+	  margin:10px;
+	  background: #6C7896;
+	  background-image: -webkit-linear-gradient(top, #6C7896, #2980b9);
+	  background-image: -moz-linear-gradient(top, #6C7896, #2980b9);
+	  background-image: -ms-linear-gradient(top, #6C7896, #2980b9);
+	  background-image: -o-linear-gradient(top, #6C7896, #2980b9);
+	  background-image: linear-gradient(to bottom, #6C7896, #2980b9);
+	  -webkit-border-radius: 28;
+	  -moz-border-radius: 28;
+	  border-radius: 28px;
+	  font-family: Arial;
+	  color: #ffffff;	  
+	  text-decoration: none;
+	  
+	
+}
+
+ button:hover
+{
+	  
+	  background: #3cb0fd;
+	  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+	  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+	  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+	  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+	  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+	  text-decoration: none;
+	  
+	  
+	
+}
+
+form button
+{
+	float:left;	
+	width:107px;
+	margin:0;
+	position:absolute;
+	left:280px;
+	top:610px;
+}
+
+.clientes_escolha
+{
+	margin:5px;
+	
+	float:left;
+	height: 500px ;
+	width: 190px;
+	background-color: red;
+	
+	
+}
+
+.clientes_escolha select {
+    width: 190px;
+	height: 500px ;
+	background: white;
+}
+
+
+.direita
+{
+	margin-top:5px;
+	width:386px;
+	height:680px;
+	background-color: #B5DDDD ;
+	margin-left:10px;
+	float:left;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.direita .form
+{
+	margin-top:0px;
+	margin-left:40px;
+	padding:0px;
+}
+
+
+.logo
+{
+	height: 136px ;
+	width:  150px;
+	margin-bottom:30px;
+	margin-left:30px;
+	float:left;
+	
+}
+
+.logo img
+{
+	height: 136px ;
+	width:  150px;
+	
+	
+	float:left;
+	
+}
+
+
+.form .fundo
+{
+	height: 45px ;
+	
+	margin-top:10px;
+	margin-left:150px;
+	width: 179px;		
+	
+	box-shadow: 7px 7px 3px #000000;
+}
+
+.form .fundo .titulo
+{
+	height: 20px ;
+	margin:auto;
+	background-color: #0059b3 ;
+	color:white;
+	text-align:center;
+}
+
+.form .fundo .quadradinhos
+{
+	height: 25px ;
+	margin:auto;
+	background-color: gray;
+	color:white;
+	text-align:center;
+}
+
+.form .fundo .quadradinhos ul
+{
+	padding:0px;
+	margin:5px;
+	list-style:none;
+	margin:auto;
+	
+}
+
+.form .fundo .quadradinhos ul li
+{
+	display: inline;
+}
+
+.form .quadradinhos ul li input {
+    width: 17px;
+}
+
+

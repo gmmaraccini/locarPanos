@@ -1,0 +1,15 @@
+geral= 1130px(100%)
+	topoesquerda:671px/115px
+		logo:129px/105px
+	topodireita:468px/110px
+		titulo:449px/29px
+		busca:266px/38px
+		entregas:187x75px
+	meio:659px/573px
+		meioesquerda:198px/563px
+			select:186px/545px
+		meiodireita:440px/567px
+			tabela:448px/505px
+			botoes:445px/54px
+
+

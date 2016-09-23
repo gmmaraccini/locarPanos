@@ -1,0 +1,507 @@
+body
+{
+	margin:0;	
+}
+
+.geral
+{
+	background-color:#e5e4e2;
+	height:691px;
+	width:1120px;	
+	
+}
+
+.topoesquerda
+{
+	
+	height: 144px ;
+	width:  680px ;	
+	float:left;
+	margin-top:5px;
+	margin-left:5px;
+	
+	margin-bottom:10px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.logodiv
+{
+	height: 139px ;
+	width:  150px;
+	background-color: cyan ;
+	margin-left:10px;
+	float:left;
+}
+
+
+.logo
+{
+	height: 136px ;
+	width:  150px;
+	
+	
+	float:left;
+	
+}
+
+.logo img
+{
+	height: 136px ;
+	width:  150px;
+	
+	
+	float:left;
+	
+}
+
+.topoesquerdadados
+{
+	height:  136px;
+	width:  524px ;	
+	float:right;
+	
+	
+}
+
+.nomelogo
+{
+	height:  39px;
+	width:  420px;	
+	margin:auto;
+	margin-top:5px;
+	margin-bottom:5px;
+	
+	
+}
+
+.nomelogo p
+{
+	margin:0;
+	text-align: center;
+	padding:5px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	font-weight: bold;
+	
+	
+}
+
+
+.dataentregadiv
+{
+	height:  48px;
+	width:  394px ;
+	
+	margin:auto;
+	
+}
+
+.dataentrega
+{
+	height:  44px;
+	width:  246px ;
+	
+	
+	float:left;
+	
+	
+}
+
+.dataentrega p
+{
+	margin:0;
+	padding:0;
+	
+}
+
+.dataentrega hr
+{
+	margin:0;
+	padding:0;
+	color:red;
+	width:200px;
+	
+}
+
+
+.dataentregannovo
+{
+	height:  44px;
+	width:  141px ;
+	
+	float:right;
+	
+	
+}
+
+.dataentregannovo p
+{
+	padding:0;
+	margin:0;
+	color:red;
+	font-size:30px;
+	float:right;	
+	
+	
+}
+
+.proximaentrega
+{
+	height:  39px;
+	width:  395px ;
+	
+	margin:auto;
+	
+	
+}
+
+.dataproximaentrega
+{
+	height:  39px;
+	width:  246px ;	
+	float:left;
+}
+
+.dataproximaentrega p
+{
+	margin:0px;
+	padding:0px;	
+	float:left;
+	margin-right:5px	;
+}
+
+.dataproximaentrega input
+{
+	width: 30px ;
+	margin:0px;
+	margin-right:5px;
+	float:left;
+	border-radius: 4px;
+	border: 2px solid gray;
+	
+}
+
+
+.camporosa
+{
+	height: 39px ;
+	width: 71px ;	
+	float:right;
+}
+
+.camporosa input
+{
+	
+	width: 30px ;
+	margin:10px;
+	background-color:pink;
+	float:right;
+	
+}
+
+
+.topodireita
+{
+	height: 265px;
+	width: 388px ;
+	background-color: #ccd8ff ;
+	float:left;
+	margin-left:24px;
+	margin-top:5px;
+	margin-right:5px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.calendario
+{
+	height: 254px ;
+	width: 374px ;
+	background-color: #ccd8ff ;
+	margin:auto;
+	margin-top:5px;
+	word-wrap: break-word;
+}
+
+.meioesquerda
+{
+	height: 463px ;
+	width: 680px;	
+	left:5px;
+	position:absolute;
+	top:170px;
+	background-color: #00124d ;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.recolhacliente
+{
+	height: 400px;
+	width: 670px ;
+	margin:auto;
+	background-color: #99b1ff ;
+	overflow-x:auto;
+}
+
+/* 
+tabelas
+
+*/
+table,th,td
+{
+	border: 1px solid black;
+}
+
+
+tr:nth-child(even) {background-color: #f2f2f2}
+tr:hover {background-color: cyan}
+
+tr input {
+    width: 25px;
+	margin-left:15px;
+	text-align:center;
+	border-radius: 4px;
+	border: 2px solid blue;
+	
+}
+
+tr p
+{
+	text-align:center;
+	
+}
+
+
+
+
+
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+.database-titulo
+{
+	border:1px;
+	
+}
+
+.database-campos
+{
+	border:1px;
+}
+
+/*fim tabelas */
+
+
+.numeracaolacreauto
+{
+	margin-left:5px;
+	height: 62px ;
+	width: 211px ;
+	
+}
+
+.numeracaolacreauto button
+{
+	  margin:20px;
+	  background: #3498db;
+	  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+	  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+	  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+	  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+	  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+	  -webkit-border-radius: 28;
+	  -moz-border-radius: 28;
+	  border-radius: 28px;
+	  font-family: Arial;
+	  color: #ffffff;	  
+	  text-decoration: none;
+}
+
+.numeracaolacreauto button:hover 
+{
+	  margin:20px;
+	  background: #3cb0fd;
+	  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+	  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+	  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+	  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+	  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+	  text-decoration: none;
+}
+
+.meiodireita
+{
+	float:right;
+	
+	right:476px;
+	top:280px;
+	height: 353px ;
+	width: 411px ;
+	margin-top:10px;
+	margin-right:10px;
+	background-color:  #003366 ;	
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.clientes_escolha
+{
+	margin:5px;
+	
+	float:left;
+	height: 340px ;
+	width: 190px;
+	background-color: red;
+	
+	
+}
+.clientes_confirma
+{
+	margin:5px;	
+	
+	float:right;
+	height: 340px ;
+	width: 190px;
+	background-color: orange;
+}
+
+.clientes_escolha select {
+    width: 190px;
+	height: 340px ;
+	background: white;
+}
+
+.clientes_confirma select {
+    width: 190px;
+	height: 340px ;
+	background: #D3F8E2;
+}
+
+
+.base
+{
+	position:absolute;
+	top:639px;
+	height: 52px ;
+	width:1120px;	
+	
+}
+
+
+.baseesquerda
+{
+	height: 52px ;
+	width: 322px;
+	float:left;
+	
+}
+
+.baseesquerda .fundo
+{
+	height: 45px ;
+	margin-left:45px;
+	margin-top:3px;
+	width: 179px;		
+	
+	box-shadow: 7px 7px 3px #000000;
+}
+
+.baseesquerda .fundo .titulo
+{
+	height: 20px ;
+	margin:auto;
+	background-color: #0059b3 ;
+	color:white;
+	text-align:center;
+}
+
+.baseesquerda .fundo .quadradinhos
+{
+	height: 25px ;
+	margin:auto;
+	background-color: gray;
+	color:white;
+	text-align:center;
+}
+
+.baseesquerda .fundo .quadradinhos ul
+{
+	padding:0px;
+	margin:5px;
+	list-style:none;
+	margin:auto;
+	
+}
+
+.baseesquerda .fundo .quadradinhos ul li
+{
+	display: inline;
+}
+
+.fundo .quadradinhos ul li input {
+    width: 20px;
+	border-radius: 4px;
+	border: 2px solid black;
+	
+}
+
+
+.basedireita
+{
+	height: 52px;
+	width: 794px ;
+	float:right;
+	
+}
+
+.basedireita ul
+{
+	
+	padding:0px;
+	margin:18px;
+	list-style:none;
+	float:right;
+	
+}
+
+.basedireita ul li
+{
+	
+	display: inline;
+	
+}
+
+.basedireita ul li button
+{
+	
+	  background: #3498db;
+	  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+	  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+	  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+	  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+	  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+	  -webkit-border-radius: 28;
+	  -moz-border-radius: 28;
+	  border-radius: 28px;
+	  font-family: Arial;
+	  color: #ffffff;	  
+	  text-decoration: none;
+	
+}
+
+.basedireita ul li button:hover
+{
+	
+	  background: #3cb0fd;
+	  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+	  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+	  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+	  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+	  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+	  text-decoration: none;
+	
+}
+
+

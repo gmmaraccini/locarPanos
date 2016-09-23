@@ -1,0 +1,18 @@
+geral= 1130px(100%)
+	topoesquerda:680px /144px
+		logo:150px / 139px
+		topoesquerdadados:524px/136px
+			nome:423px / 37px
+			numerodata:423px / 100px
+			camporosa:78px/36px
+	topodireita:450px x 265px
+		calendario:374px /254px
+	meioesquerda:680px / 462px
+		recolhacliente:670px / 400px
+		numeracaolacreauto:211px / 62px
+	meiodireita:450px /357px
+		clientes_escolha:205px /350px
+		clientes_confirma:205px /350px
+	base:100% / 75px
+		basedireita:322px / 70px
+		baseesquerda:794px / 70px

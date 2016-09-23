@@ -1,0 +1,350 @@
+body
+{
+	margin:0;	
+}
+
+.geral
+{
+	background-color:#e5e4e2;
+	height:768px;
+	width:1024px;	
+	
+}
+
+.topoesquerda
+{
+	
+	height: 116px ;
+	width:  174px ;	
+	float:left;
+	
+	margin-left:5px;
+	
+	margin-bottom:10px;
+	
+}
+
+
+
+
+.logo
+{
+	height: 105px ;
+	width:  105px;
+	margin-left:20px;
+	margin-top:5px;
+	
+	float:left;
+	
+	
+}
+
+.logo img
+{
+	height: 136px ;
+	width:  150px;
+	float:left;
+	
+	
+}
+.topodireita
+{
+	height: 113px;
+	width: 484px ;
+	background-color: #ccd8ff ;
+	float:left;
+	margin-left:24px;
+	margin-top:5px;
+	
+	margin-right:5px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+
+
+.titulodiv
+{
+	height: 47px ;
+	width: 446px;	
+	
+	margin:auto;
+	margin-top:3px;
+}
+
+.titulodiv p
+{
+	margin:0;
+	padding:0;
+	width:388px;
+	height:22px;
+	text-align:center;	
+	padding:15px;
+	
+}
+
+
+.buscadiv
+{
+	height: 61px ;
+	width: 275px;	
+	
+	float:left;
+	margin-left:19px;
+
+}
+
+.buscadiv p
+{
+	margin:0;	
+	margin:auto;
+}
+
+.buscadiv input
+{
+	
+	margin:0;
+	padding:0;
+	margin:auto;
+}
+
+.entregasdiv
+{
+	height: 61px  ;
+	width: 171px;
+
+float:left;
+
+}
+
+
+.entregasdiv .fundo
+{
+	height: 45px ;
+	margin-left:0px;
+	margin-top:3px;
+	width: 179px;		
+	
+	box-shadow: 7px 7px 3px #000000;
+}
+
+.entregasdiv .fundo .titulo
+{
+	height: 20px ;
+	margin:auto;
+	background-color: #0059b3 ;
+	color:white;
+	text-align:center;
+}
+
+.entregasdiv .fundo .quadradinhos
+{
+	height: 25px ;
+	margin:auto;
+	background-color: gray;
+	color:white;
+	text-align:center;
+}
+
+.entregasdiv .fundo .quadradinhos ul
+{
+	padding:0px;
+	margin:5px;
+	list-style:none;
+	margin:auto;
+	
+}
+
+.entregasdiv .fundo .quadradinhos ul li
+{
+	display: inline;
+}
+
+.fundo .quadradinhos ul li input {
+    width: 20px;
+	border-radius: 4px;
+	border: 2px solid black;
+	
+}
+
+
+.meioesquerda
+{
+	width:209px;
+	height: 566px ;
+	position:absolute;	
+	top:150px;
+	left:10px;
+	background-color:blue;
+	float:left;
+	box-shadow: 10px 10px 5px #888888;
+
+}
+
+.meioesquerda select
+{	
+    width: 190px;
+	height: 530px ;
+	background: white;
+	margin-left:8px;
+	margin-top:10px;
+}
+
+.meiodireita
+{
+	height: 566px ;
+	width: 455px;
+	position:absolute;	
+	top:150px;
+	left:237px;
+	float:left;
+	background-color:blue;
+	box-shadow: 10px 10px 5px #888888;
+	
+
+}
+
+.tabela
+{
+	width:439px;
+	height:437px;
+	background-color:#99b1ff;
+	margin-top:10px;
+	margin-left:7px;
+	overflow-x:auto;
+}
+
+/* 
+tabelas
+*/
+
+
+table,th,td
+{
+	border: 1px solid black;
+}
+
+
+tr:nth-child(even) {background-color: #f2f2f2}
+tr:hover {background-color: cyan}
+
+tr input {
+    width: 25px;
+	margin-left:15px;
+	text-align:center;
+	border-radius: 4px;
+	border: 2px solid blue;
+	
+}
+
+tr p
+{
+	text-align:center;
+	
+}
+
+tr button
+{
+	margin-left:7px;
+	
+	width:40px;
+	background-color:transparent;
+	border:0;
+	
+}
+
+
+
+
+
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+.database-titulo
+{
+	border:1px;
+	
+}
+
+.database-campos
+{
+	border:1px;
+}
+
+/*fim tabelas */
+
+.class excluir
+{
+	width:10px;
+}
+
+
+
+
+.botoes
+{
+	height: 54px ;
+	width: 445px;
+	
+	margin:auto;
+	position:absolute;
+	bottom:20px;
+	left:5px;
+	
+
+}
+
+.botoes ul
+{
+	
+	padding:0px;
+	margin:18px;
+	list-style:none;	
+	text-align:center;
+	
+}
+
+.botoes ul li
+{
+	
+	display: inline;
+	
+}
+
+.botoes ul li button
+{
+	  width:150px;
+	  
+	  background: #3498db;
+	  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+	  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+	  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+	  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+	  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+	  -webkit-border-radius: 28;
+	  -moz-border-radius: 28;
+	  border-radius: 28px;
+	  font-family: Arial;
+	  color: #ffffff;	  
+	  text-decoration: none;
+	  
+	
+}
+
+.botoes ul li button:hover
+{
+	
+	  background: #3cb0fd;
+	  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+	  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+	  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+	  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+	  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+	  text-decoration: none;
+	
+}
+
+
