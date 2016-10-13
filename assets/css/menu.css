@@ -1,0 +1,111 @@
+body
+{
+	margin:0;	
+}
+
+.geral
+{
+	background-color:#e5e4e2;
+	height:691px;
+	width:1120px;	
+	
+}
+
+.menuinicial
+{
+	width:622px;
+	height:615px;
+	
+}
+
+.esquerda
+{
+	
+	width:213px;
+	height:587px;
+	float:left;
+	margin-top:5px;
+	margin-left:5px;
+	background-color:#B5DDDD;
+	
+	margin-bottom:10px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.botoes
+{
+	width:155px;
+	margin-top:40px;
+	padding:30px;
+}
+
+ button
+{
+	  margin:10px;
+	  background: #6C7896;
+	  background-image: -webkit-linear-gradient(top, #6C7896, #2980b9);
+	  background-image: -moz-linear-gradient(top, #6C7896, #2980b9);
+	  background-image: -ms-linear-gradient(top, #6C7896, #2980b9);
+	  background-image: -o-linear-gradient(top, #6C7896, #2980b9);
+	  background-image: linear-gradient(to bottom, #6C7896, #2980b9);
+	  -webkit-border-radius: 28;
+	  -moz-border-radius: 28;
+	  border-radius: 28px;
+	  font-family: Arial;
+	  color: #ffffff;	  
+	  text-decoration: none;
+	
+}
+
+ button:hover
+{
+	  
+	  background: #3cb0fd;
+	  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+	  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+	  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+	  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+	  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+	  text-decoration: none;
+	
+}
+
+
+.direita
+{
+	margin-top:5px;
+	width:386px;
+	height:586px;
+	background-color: #B5DDDD ;
+	margin-left:10px;
+	float:left;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.direita .botoes
+{
+	margin-top:140px;
+	margin-left:40px;
+}
+
+
+.logo
+{
+	height: 136px ;
+	width:  150px;
+	margin-bottom:30px;
+	margin-left:30px;
+	float:left;
+	
+}
+
+.logo img
+{
+	height: 136px ;
+	width:  150px;
+	
+	
+	float:left;
+	
+}
+
