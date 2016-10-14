@@ -1,3 +1,4 @@
+
 <html>
 <head>
 	<title>Pagina de Recolha - Locar Panos</title>
@@ -21,16 +22,10 @@
 				</div>
 				<div class="clientes_escolha">
 					<select multiple="multiple">
-						<option value="1">January</option>
-						<option value="2">January</option>
-						<option value="3">January</option>
-						<option value="4">January</option>
-						<option value="5">January</option>
-						<option value="6">January</option>
-						<option value="6">January</option>
-						<option value="7">January</option>
-						<option value="8">January</option>
-						<option value="9">December</option>
+                                            <?php foreach ($clientes as $cliente): ?>
+						<option value="<?php echo $cliente->id ?>"><?php echo $cliente->nomefantasia ?></option>
+                                            <?php endforeach; ?>
+
 					</select>
 				</div>				
 			</div>
@@ -69,7 +64,7 @@
 							</div>
 						</div>
                                                 <input type="submit" value="Adicionar Novo">
-						<button>Adicionar Novo</button>
+						
 						
 					</form>
 					

@@ -63,8 +63,9 @@ form p
 
 
 
- button
+ input[type="submit"]
 {
+          width: 150px;
 	  margin:10px;
 	  background: #6C7896;
 	  background-image: -webkit-linear-gradient(top, #6C7896, #2980b9);
@@ -82,9 +83,9 @@ form p
 	
 }
 
- button:hover
+ input[type="submit"]:hover
 {
-	  
+          width: 150px;
 	  background: #3cb0fd;
 	  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
 	  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);

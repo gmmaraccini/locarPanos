@@ -25,7 +25,12 @@ class CadastroController extends CI_Controller {
         
         public function clientes()
 	{
+            
+            $dados = array();
+            $clientesModel = $this->load->model('cadastro/clientes_model');
+            
 
+            
             
             if ($this->input->server('REQUEST_METHOD') == 'POST')
             {
@@ -41,14 +46,80 @@ class CadastroController extends CI_Controller {
                  $dadosCliente['rota'] = $this->input->input_stream('rota');
                  $dadosCliente['telefone'] = $this->input->input_stream('telefone');
                  $dadosCliente['contato'] = $this->input->input_stream('contato');
-                 $dadosCliente['email'] = $this->input->input_stream('email');
-                 $clientesModel = $this->load->model('cadastro/clientes_model');
+                 $dadosCliente['email'] = $this->input->input_stream('email');                 
                  $this->clientes_model->inserir($dadosCliente);
                  
                  
 		
             }
-            $this->load->view('cadastro/clientes');
+            
+            $clientes = $this->clientes_model->buscar();
+            $dados['clientes'] = $clientes;
+            
+
+            $this->load->view('cadastro/clientes',$dados);
+             
+             
+	}
+        
+         public function itens()
+	{
+            
+            $dados = array();
+            $clientesModel = $this->load->model('cadastro/clientes_model');
+            
+
+            
+            
+            if ($this->input->server('REQUEST_METHOD') == 'POST')
+            {
+                 $dadosCliente['nome'] = $this->input->input_stream('nome');
+                 $dadosCliente['nomefantasia'] = $this->input->input_stream('nomefantasia');
+                 $dadosCliente['endereco'] = $this->input->input_stream('endereco');
+                 $dadosCliente['bairro'] = $this->input->input_stream('bairro');
+                 $dadosCliente['cep'] = $this->input->input_stream('cep');
+                 $dadosCliente['cnpj'] = $this->input->input_stream('cnpj');
+                 $dadosCliente['vcto1'] = $this->input->input_stream('vcto1');
+                 $dadosCliente['vcto2'] = $this->input->input_stream('vcto2');
+                 $dadosCliente['vctomensal'] = $this->input->input_stream('vctomensal');
+                 $dadosCliente['rota'] = $this->input->input_stream('rota');
+                 $dadosCliente['telefone'] = $this->input->input_stream('telefone');
+                 $dadosCliente['contato'] = $this->input->input_stream('contato');
+                 $dadosCliente['email'] = $this->input->input_stream('email');                 
+                 $this->clientes_model->inserir($dadosCliente);
+                 
+                 
+		
+            }
+            
+            $clientes = $this->clientes_model->buscar();
+            $dados['clientes'] = $clientes;
+            
+
+            $this->load->view('cadastro/itens',$dados);
+             
+             
+	}
+        
+         public function produtos()
+	{
+            
+            $dados = array();
+            $clientesModel = $this->load->model('cadastro/clientes_model');          
+
+            
+            
+            if ($this->input->server('REQUEST_METHOD') == 'POST')
+            {
+                 $dadosProdutos['nomeproduto'] = $this->input->input_stream('nomeproduto');                
+                 $this->clientes_model->inserirProdutos($dadosProdutos);
+            }
+            
+            $produtos = $this->clientes_model->buscarProdutos();
+            $dados['produtos'] = $produtos;
+            
+
+            $this->load->view('cadastro/produtos',$dados);
              
              
 	}

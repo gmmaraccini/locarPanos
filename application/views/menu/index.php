@@ -37,8 +37,8 @@
 				</div>
 				<div class="botoes">
                                         <button><a href="cadastroClientes">CADASTRO DE CLIENTES</a></button>
-                                        <button>CADASTRO DE PRODUTOS</button>
-                                        <button>CADASTRO DE ITENS</button>
+                                        <button><a href="cadastroProdutos">CADASTRO DE PRODUTOS</a></button>
+                                        <button><a href="cadastroItens">CADASTRO DE ITENS</a></button>
 					<button>ENTREGA</button>
 					<button><a href="recolha.htm" target="_blank">RECOLHA</a></button>
 					<button>PESQUISA LACRE</button>

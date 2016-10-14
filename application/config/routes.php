@@ -51,6 +51,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $route['menu'] = 'menuController';
 $route['cadastroClientes'] = 'cadastroController/clientes';
+$route['cadastroProdutos'] = 'cadastroController/produtos';
+$route['cadastroItens'] = 'cadastroController/itens';
 $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
