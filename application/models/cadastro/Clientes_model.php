@@ -46,7 +46,7 @@ class Clientes_model extends CI_Model {
          public function buscarItens()
          {
                 
-                $query = $this->db->get('clientes');
+                $query = $this->db->get('itens');
                 return $query->result();
              
          }

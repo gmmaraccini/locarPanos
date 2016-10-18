@@ -98,11 +98,19 @@ class CadastroController extends CI_Controller {
             $produtos = $this->clientes_model->buscarProdutos();
             $dados['produtos'] = $produtos;
             
+            $itens = $this->clientes_model->buscarItens();
+            $dados['itens'] = $itens;
+            
 
             $this->load->view('cadastro/itens',$dados);
              
              
 	}
+        
+        public function itensCliente()
+        {
+            echo "Entrou aqui";
+        }
         
          public function produtos()
 	{
