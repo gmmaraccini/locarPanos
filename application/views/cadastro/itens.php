@@ -73,9 +73,15 @@
 						</thead>
 						<tbody class="database-campos">
 							<tr>
-								
-								<td class="table-text"><p>Toalha Gigante para Mesa Gigante Exemplo</p></td>
-								<td class="table-text"><p>R$ 0,23</p></td>
+
+								<td class="table-text">
+                                                                    <select>
+                                                                        <option>1</option>
+                                                                        <option>2</option>
+                                                                        <option>3</option>                                                    
+                                                                    </select>
+                                                                </td>
+                                                                <td class="table-text"><input type="text" name="preco"></td>
 								<td class="table-input"><button class="excluir"><img src="assets/img/excluir.png"></button></td>
 						
 							</tr>

@@ -95,6 +95,9 @@ class CadastroController extends CI_Controller {
             $clientes = $this->clientes_model->buscar();
             $dados['clientes'] = $clientes;
             
+            $produtos = $this->clientes_model->buscarProdutos();
+            $dados['produtos'] = $produtos;
+            
 
             $this->load->view('cadastro/itens',$dados);
              
