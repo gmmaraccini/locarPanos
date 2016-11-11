@@ -54,6 +54,7 @@ $route['itensCliente'] = 'cadastroController/itensCliente';
 $route['cadastroClientes'] = 'cadastroController/clientes';
 $route['cadastroProdutos'] = 'cadastroController/produtos';
 $route['cadastroItens'] = 'cadastroController/itens';
+$route['adicionarItem'] = 'cadastroController/adicionaritem';
 
 
 $route['default_controller'] = 'welcome';

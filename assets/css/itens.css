@@ -354,5 +354,45 @@ th {
 }
 
 
+.botoes ul li.adicionar button
+{
+	  width:150px;
+          margin-right :50px;
+          margin-bottom:10px;
+	  
+	  background: greenyellow;
+	  background-image: -webkit-linear-gradient(top, greenyellow, green);
+	  background-image: -moz-linear-gradient(top, greenyellow, green);
+	  background-image: -ms-linear-gradient(top, greenyellow, green);
+	  background-image: -o-linear-gradient(top, greenyellow, green);
+	  background-image: linear-gradient(to bottom, greenyellow, green);
+	  -webkit-border-radius: 28;
+	  -moz-border-radius: 28;
+	  border-radius: 28px;
+	  font-family: Arial;
+	  color: #ffffff;	  
+	  text-decoration: none;
+	  
+	
+}
+
+.botoes ul li.adicionar button:hover
+{
+	
+	  background: green;
+	  background-image: -webkit-linear-gradient(top, green, greenyellow);
+	  background-image: -moz-linear-gradient(top, green, greenyellow);
+	  background-image: -ms-linear-gradient(top, green, greenyellow);
+	  background-image: -o-linear-gradient(top, green, greenyellow);
+	  background-image: linear-gradient(to bottom, green, greenyellow);
+	  text-decoration: none;
+	
+}
+
+
+
+
+
+
 
 

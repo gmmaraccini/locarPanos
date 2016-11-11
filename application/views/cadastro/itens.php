@@ -71,38 +71,45 @@
                                     </tr>
                                 </thead>
                                 <tbody class="database-campos">
-                                    <?php if (!empty($itens)) { ?>
-                                        <tr>
 
 
 
-                                            <td class="table-text">
-                                                <select>
-                                                    <?php foreach ($produtos as $produto) : ?>
-                                                        <option><?php echo $produto->nome ?></option>
-                                                    <?php endforeach; ?>
 
-                                                </select>
-                                            </td>
-                                            <td class="table-text"><input type="text" name="preco"></td>
-                                            <td class="table-input"><button class="excluir"><img src="assets/img/excluir.png"></button></td>
 
-                                        <?php }else { ?>
-                                            <td class="table-text"><p>Clique no cliente a esquerda para cadastrar produtos</p></td>
-                                        <?php } ?>
+                                
+                                    <tr>
+                                        <td class="table-text">
+                                            <select>
+                                                <?php foreach ($produtos as $produto) : ?>
+                                                    <option><?php echo $produto->nome ?></option>
+                                                <?php endforeach; ?>
 
+                                            </select>
+                                        </td>
+                                        <td class="table-text"><input type="text" name="preco"></td>
+                                        <td class="table-input"><button class="excluir"><img src="assets/img/excluir.png"></button></td>
                                     </tr>
+                                
+                             
 
 
 
 
-                                </tbody>
+
+
+
+
+
+
+                                    </tbody>
                             </table>
                         </div>
                     </div>
                     <div class="botoes">
                         <ul>
-                            <li><button>Novo</button></li>
+
+                            <li class="adicionar" id="adicionar"><button>Adicionar</button></li>
+                            <li><button>Salvar</button></li>
                             <li><button>Fechar</button></li>
                         </ul>
                     </div>
